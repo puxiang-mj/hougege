@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>即梦AI - 创作无限可能</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+  <body>
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="logo-container">
+        <div class="logo-icon"><i class="fas fa-bolt"></i></div>
+        <span class="logo-text">即梦AI</span>
+      </div>
+
+      <nav class="main-nav">
+        <ul>
+          <li class="active">
+            <a href="#"><i class="fas fa-home"></i> 首页</a>
+          </li>
+          <li>
+            <a href="#"><i class="fas fa-compass"></i> 探索</a>
+          </li>
+          <li>
+            <a href="#"
+              ><i class="fas fa-fire"></i> 活动
+              <span class="hot-badge"><i class="fas fa-fire-alt"></i></span
+            ></a>
+          </li>
+          <li>
+            <a href="#"><i class="fas fa-user"></i> 个人主页</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="nav-section-title">AI 创作</div>
+      <nav class="creation-nav">
+        <ul>
+          <li>
+            <a href="#"><i class="fas fa-folder"></i> 资产</a>
+          </li>
+          <li>
+            <a href="#"><i class="fas fa-image"></i> 图片生成</a>
+          </li>
+          <li>
+            <a href="#"><i class="fas fa-magic"></i> 智能画布</a>
+          </li>
+          <li>
+            <a href="#"><i class="fas fa-video"></i> 视频生成</a>
+          </li>
+          <li>
+            <a href="#"><i class="fas fa-book-open"></i> 故事创作</a>
+          </li>
+          <li>
+            <a href="#"><i class="fas fa-music"></i> 音乐生成</a>
+          </li>
+          <li>
+            <a href="#"><i class="fas fa-microphone"></i> 对口型</a>
+          </li>
+          <li>
+            <a href="#"><i class="fas fa-running"></i> 动作模仿</a>
+          </li>
+        </ul>
+      </nav>
+
+      <nav class="bottom-nav">
+        <ul>
+          <li>
+            <a href="#"><i class="fas fa-bell"></i> 消息中心</a>
+          </li>
+          <li>
+            <a href="#"><i class="fas fa-envelope-open"></i> 邀请</a>
+          </li>
+        </ul>
+      </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <!-- Top Bar -->
+      <header class="top-bar">
+        <div class="search-bar">
+          <i class="fas fa-search"></i>
+          <input type="text" placeholder="废土美学" />
+          <button class="search-btn">搜索</button>
+        </div>
+        <div class="top-actions">
+          <button class="action-btn">
+            <i class="fas fa-code"></i> API 调用
+          </button>
+          <button class="action-btn">
+            <i class="fas fa-mobile-alt"></i> 移动端下载
+          </button>
+          <button class="points-btn">
+            <i class="fas fa-gem"></i> 66 | 开会员 得积分
+          </button>
+          <div class="user-avatar">
+            <img
+              src="https://ui-avatars.com/api/?name=User&background=0D8ABC&color=fff"
+              alt="User"
+            />
+          </div>
+        </div>
+      </header>
+
+      <!-- Hero Function Cards -->
+      <section class="hero-cards">
+        <div class="card card-image">
+          <div class="card-content">
+            <h3>AI 作图</h3>
+            <p>轻松实现创意图片</p>
+            <div class="card-buttons">
+              <button>图片生成</button>
+              <button>智能画布</button>
+            </div>
+          </div>
+          <!-- Background decoration handled in CSS -->
+        </div>
+        <div class="card card-video">
+          <div class="card-content">
+            <h3>AI 视频</h3>
+            <p>让你的创意动起来</p>
+            <div class="card-buttons">
+              <button>视频生成</button>
+              <button>故事创作</button>
+            </div>
+          </div>
+        </div>
+        <div class="card card-digital">
+          <div class="card-content">
+            <h3>数字人</h3>
+            <p>虚拟角色从此栩栩如生</p>
+            <div class="card-buttons">
+              <button>对口型</button>
+              <button>动作模仿</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Gallery Section -->
+      <section class="gallery-section">
+        <div class="gallery-header">
+          <div class="tabs">
+            <button class="tab-btn">灵感</button>
+            <button class="tab-btn active">短片</button>
+          </div>
+          <button class="publish-btn">发布短片</button>
+        </div>
+
+        <div class="gallery-grid">
+          <!-- Item 1 -->
+          <div class="gallery-item">
+            <div
+              class="thumbnail"
+              style="background: linear-gradient(45deg, #2b5876, #4e4376)"
+            >
+              <div class="overlay-info">
+                <span class="views"><i class="fas fa-heart"></i> 4332</span>
+                <span class="duration">02:00</span>
+              </div>
+              <!-- Placeholder content since image gen failed -->
+              <div class="placeholder-text">CANDY AND GHOST</div>
+            </div>
+            <div class="item-info">
+              <div class="author">
+                <img
+                  src="https://ui-avatars.com/api/?name=S&background=random"
+                  alt="Avatar"
+                />
+                <span>森海荧光</span>
+              </div>
+              <h4>AIMV《糖果鬼》</h4>
+              <p>森海荧光《The Monster》之后的第二部AIMV作品...</p>
+            </div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="gallery-item">
+            <div
+              class="thumbnail"
+              style="background: linear-gradient(45deg, #134e5e, #71b280)"
+            >
+              <div class="overlay-info">
+                <span class="views"><i class="fas fa-heart"></i> 1988</span>
+                <span class="duration">01:33</span>
+              </div>
+              <div class="placeholder-text">传 奇</div>
+            </div>
+            <div class="item-info">
+              <div class="author">
+                <img
+                  src="https://ui-avatars.com/api/?name=L&background=random"
+                  alt="Avatar"
+                />
+                <span>灵采AIGC</span>
+              </div>
+              <h4>白骨精传·第一集</h4>
+              <p>#即梦AI短剧 #短剧Plan</p>
+            </div>
+          </div>
+
+          <!-- Item 3 -->
+          <div class="gallery-item">
+            <div
+              class="thumbnail"
+              style="background: linear-gradient(45deg, #ff9966, #ff5e62)"
+            >
+              <div class="overlay-info">
+                <span class="views"><i class="fas fa-heart"></i> 1328</span>
+                <span class="duration">02:20</span>
+              </div>
+              <div class="placeholder-text">老友南宁</div>
+            </div>
+            <div class="item-info">
+              <div class="author">
+                <img
+                  src="https://ui-avatars.com/api/?name=M&background=random"
+                  alt="Avatar"
+                />
+                <span>Mac</span>
+              </div>
+              <h4>人民日报 | 《老友南宁》AIGC人文城市...</h4>
+              <p>为人民日报制作的南宁人文城市AI文旅短片...</p>
+            </div>
+          </div>
+
+          <!-- Item 4 -->
+          <div class="gallery-item">
+            <div
+              class="thumbnail"
+              style="background: linear-gradient(45deg, #cc2b5e, #753a88)"
+            >
+              <div class="overlay-info">
+                <span class="views"><i class="fas fa-heart"></i> 501</span>
+                <span class="duration">02:29</span>
+              </div>
+              <div class="placeholder-text">向八进击的阿色</div>
+            </div>
+            <div class="item-info">
+              <div class="author">
+                <img
+                  src="https://ui-avatars.com/api/?name=A&background=random"
+                  alt="Avatar"
+                />
+                <span>向八进击的阿色</span>
+              </div>
+              <h4>神话色彩研究</h4>
+              <p>探索中国传统神话色彩...</p>
+            </div>
+          </div>
+          <!-- Item 5 - Starcraft -->
+          <div class="gallery-item">
+            <div
+              class="thumbnail"
+              style="background: linear-gradient(to bottom, #000428, #004e92)"
+            >
+              <div class="overlay-info">
+                <span class="views"><i class="fas fa-heart"></i> 123</span>
+                <span class="duration">03:13</span>
+              </div>
+              <div class="placeholder-text">STARCRAFT</div>
+            </div>
+            <div class="item-info">
+              <div class="author">
+                <img
+                  src="https://ui-avatars.com/api/?name=P&background=random"
+                  alt="Avatar"
+                />
+                <span>PJ-1 AIGC STUDIO</span>
+              </div>
+              <h4>星际争霸 概念片</h4>
+              <p>致敬经典RTS游戏...</p>
+            </div>
+          </div>
+
+          <!-- Item 6 -->
+          <div class="gallery-item">
+            <div
+              class="thumbnail"
+              style="background: linear-gradient(to right, #43cea2, #185a9d)"
+            >
+              <div class="overlay-info">
+                <span class="views"><i class="fas fa-heart"></i> 343</span>
+                <span class="duration">01:12</span>
+              </div>
+              <div class="placeholder-text">森林秘境</div>
+            </div>
+            <div class="item-info">
+              <div class="author">
+                <img
+                  src="https://ui-avatars.com/api/?name=D&background=random"
+                  alt="Avatar"
+                />
+                <span>盯帝文化科技</span>
+              </div>
+              <h4>奇幻森林探险</h4>
+              <p>使用即梦AI生成的奇幻场景...</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Help Button -->
+    <button class="help-btn"><i class="fas fa-question"></i></button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
